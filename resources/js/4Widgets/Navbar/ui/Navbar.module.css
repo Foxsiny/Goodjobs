@@ -1,0 +1,51 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--header-text-color);
+}
+
+.navBarThemeSwitcher {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    /* color: var(--accent); */
+    padding: 10px 0;
+}
+
+.navLink .name p {
+    margin-right: 5px;
+    color: inherit;
+}
+
+.navLink:hover .name p {
+    /* color: var(--secondary-text); */
+    color: inherit;
+    transition: var(--transition-delay) linear;
+}
+
+.navLink:hover {
+    color: var(--accent);
+}
+
+.navLink:hover .name p {
+    color: var(--accent);
+}
+
+.active {
+    /* color: var(--secondary-text); */
+    color: inherit;
+    font-size: 30px;
+}

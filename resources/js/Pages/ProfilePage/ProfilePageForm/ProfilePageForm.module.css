@@ -1,0 +1,49 @@
+.formProfilePage {
+    background-color: #cff3fe;
+}
+
+.formProfile {
+    padding: 50px 50px;
+    text-align: center;
+    border-bottom: 1px solid var(--not-accented);
+}
+
+.textForm {
+    width: 30%;
+    float: left;
+    font-size: var(--font-size-m);
+}
+
+.inputFormProfile,
+.inputFormProfileUpdate {
+    border: none;
+    width: 400px;
+    height: 40px;
+    background-color: #cff3fe;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-right: 200px;
+}
+
+.inputFormProfile::placeholder,
+.inputFormProfileUpdate::placeholder {
+    font-size: var(--font-size-s);
+    color: var(--additional-bg);
+    font-family: var(--font-family-main);
+    padding-left: 10px;
+}
+
+.inputFormProfileUpdate {
+    margin-right: 300px;
+}
+
+.btnFormProfile {
+    margin-top: 10px;
+    border: none;
+    background-color: #cff3fe;
+}
+
+.divLeft {
+    float: right;
+    margin-right: 12px;
+}

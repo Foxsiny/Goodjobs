@@ -1,0 +1,27 @@
+.mainLayout {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.mainLayout>header {
+    grid-area: header;
+}
+
+.header {
+    background-color: var(--header-color);
+}
+
+.mainLayout>main {
+    grid-area: main;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.mainLayout>footer {
+    grid-area: footer;
+}

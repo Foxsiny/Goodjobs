@@ -1,0 +1,26 @@
+.navProfilePage {
+    margin-top: 23px;
+    margin-bottom: 63px;
+}
+
+.navSettings {
+    list-style-type: none;
+    border-bottom: 2px solid var(--additional-bg);
+    margin-bottom: 50px;
+}
+
+.navLink {
+    padding-bottom: 15px;
+    padding-right: 50px;
+    display: block;
+    text-decoration: none;
+}
+
+.ulCategoties {
+    list-style-type: none;
+}
+
+.tabCategories {
+    border: none;
+    background-color: var(--main-bg);
+}

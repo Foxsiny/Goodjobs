@@ -1,0 +1,150 @@
+.titleResume {
+    margin-top: 30px;
+}
+
+.textTitle {
+    padding: 10px;
+}
+
+.basiceData {
+    margin-top: 30px;
+}
+
+.indentDownBasiceData {
+    margin: 10px;
+}
+
+.inputResumeDataBasice {
+    box-sizing: border-box;
+    width: 220px;
+    height: 43px;
+    font-size: var(--font-size-s);
+    padding: 10px;
+    margin-left: 10px;
+
+    background: var(--main-bg);
+    border: 2px solid var(--light-skeleton-shadow);
+    border-radius: var(--border-radius-s);
+}
+
+.inputResumeDataBasice:focus {
+    border: 2px solid var(--accent);
+}
+
+.textareaBasiceData,
+.textSkill {
+    box-sizing: border-box;
+    width: 760px;
+    height: 138px;
+    font-size: var(--font-size-xs);
+    padding: 10px;
+
+    background: var(--main-bg);
+    border: 1px solid var(--light-skeleton-shadow);
+    border-radius: var(--border-radius-s);
+}
+
+.textSkill,
+.textSkills {
+    width: 300px;
+    height: 33px;
+}
+
+.textSkills {
+    padding: 10px;
+}
+
+.textareaBasiceData::-webkit-resizer {
+    resize: horizontal;
+}
+
+.textareaBasiceData:focus,
+.textSkill:focus {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    box-sizing: border-box;
+    background: var(--main-bg);
+    border: 1px solid var(--accent);
+    border-radius: var(--border-radius-s);
+}
+
+.inputRadioBasiceData {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.educationUser {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonYearsEducation,
+.buttonYearsExperience {
+    border: none;
+    color: var(--accent);
+    background-color: var(--main-bg);
+}
+
+.buttonYearsExperience {
+    padding-top: 20px;
+}
+
+.buttonYearsEducation {
+    margin: 15px 0px 0px 177px;
+}
+
+.experienceWork {
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputEndingWork {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textTitleEnding {
+    padding: 10px 0px 0px 10px;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.keySkillsTextAll {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonSkillDelete,
+.buttonSkillAdd {
+    border: none;
+    color: var(--cancel);
+    background-color: var(--main-bg);
+
+    margin: 0px 0px 0px 10px;
+}
+
+.buttonSkillAdd {
+    color: var(--accent);
+}
+
+.buttonDeleteResume,
+.buttonDeleteResume:hover {
+    color: var(--cancel);
+    margin-left: 10px;
+}
+
+.buttonUpdateResume {
+    margin: 10px 10px 40px 875px;
+}
+
+.incomeLevel{
+    margin-left: 10px;
+}

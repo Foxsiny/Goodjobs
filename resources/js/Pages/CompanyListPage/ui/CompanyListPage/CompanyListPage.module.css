@@ -1,0 +1,24 @@
+.titleCompanyList {
+    margin: 40px 0px 30px 0px;
+}
+
+.companyList {
+    margin: 50px 0px 30px 0px;
+    padding: 10px 10px 10px 10px;
+
+    background: var(--main-bg);
+    box-shadow: var(--shadow-main);
+}
+
+.companyList:hover {
+    box-shadow: var(--shadow-hover);
+}
+
+.titleCompany {
+    color: var(--accent);
+}
+
+.buttonCompany {
+    display: flex;
+    justify-content: flex-start;
+}
